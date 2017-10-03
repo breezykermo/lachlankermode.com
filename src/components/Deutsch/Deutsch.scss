@@ -1,0 +1,22 @@
+.deutsch-container {
+  display: flex;
+  flex: 5;
+  flex-direction: column;
+	width: 100%;
+	min-height: 70vh;
+	height: 100%;
+	text-align: center;
+}
+
+.controls-container {
+  display: flex;
+  flex: 1;
+}
+
+.card-container {
+	display: flex;
+  flex: 4;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

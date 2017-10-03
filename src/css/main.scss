@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Josefin+Slab');
+
+$purple: rgb(158, 133, 246);
+$header-font: "Josefin Slab", serif;
+$alternate-font: "Helvetica Neue", serif;
+$copy-font: "Cantarell", sans-serif;
+
+body {
+  font-family: $copy-font;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+p {
+  font-family: $copy-font;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@mixin link {
+  box-shadow: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: $purple;
+}
+
+@mixin center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $header-font !important;
+}
+
+a {
+  @include link;
+}
+a:hover {
+  color: darken($purple, 10%);
+  text-decoration: none;
+}
+
+.text-center {
+  @include center;
+}
+
+.frag-container {
+  @include center;
+  list-style-type: none;
+}
+
+.frag {
+  display: flex;
+  font-size: 32px;
+  line-height: 45px;
+  padding-bottom: 15px;
+  font-family: $header-font;
+  margin: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.frag-date {
+  font-family: $alternate-font;
+  font-size: 18px;
+  font-weight: lighter;
+  color: gray;
+}

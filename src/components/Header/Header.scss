@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+
+$purple: rgb(158, 133, 246);
+$title-font:  "Josefin Slab", serif;
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 2em 10em;
+}
+
+.pad-container {
+  display: flex;
+  flex-direction: row;
+  padding: 1em 3em;
+}
+
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 3em;
+  justify-content: center;
+  align-items: center;
+}
+
+.site-header {
+  display: flex;
+  flex: 1;
+  font-size: 40px;
+  line-height: 55px;
+  font-family: $title-font;
+  font-weight: 100;
+  cursor: pointer;
+  color: $purple;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.pad-site-header {
+  display: flex;
+  flex: 1;
+  font-size: 30px;
+  line-height: 45px;
+  font-family: $title-font;
+  font-weight: 100;
+  cursor: pointer;
+  color: $purple;
+  text-decoration: none;
+  margin: 15px;
+}
+
+.mobile-site-header {
+  display: flex;
+  flex: 1;
+  font-size: 30px;
+  line-height: 45px;
+  font-family: $title-font;
+  font-weight: 100;
+  cursor: pointer;
+  color: $purple;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.right-container {
+  flex: 1;
+  padding-top: 20px;
+}
+
+.subpages {
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.pad-subpages {
+  float: right;
+  display: flex;
+  flex-direction: row;
+}
+
+.mobile-subpages {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.page-link {
+  line-height: 55px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: $title-font;
+  margin-left: 3em;
+}
+
+.pad-page-link {
+  line-height: 35px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: $title-font;
+  margin-left: 1em;
+}
+
+.mobile-page-link {
+  flex: 1;
+  padding: 0 0;
+  margin: 0 1em;
+}

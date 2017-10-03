@@ -1,0 +1,62 @@
+{
+  "code": [
+    {
+      "title": "Impart",
+      "link": "https://github.com/breezykermo/impart",
+      "desc": "Swipe through cards with the ability to sign up for philanthropic opportunity.",
+      "tech": [
+        "React Native",
+        "Redux",
+        "Objective C"
+      ]
+    },
+    {
+      "title": "React Native Redux Boiler",
+      "link": "https://github.com/breezykermo/react-native-redux-boiler",
+      "desc": "A minimalist boiler for new React Native projects using redux.",
+      "tech": [
+        "React Native",
+        "Redux"
+      ]
+    },
+    {
+      "title": "PokeFinderGo",
+      "link": "https://github.com/breezykermo/pokefinder-go",
+      "desc": "Subscribe to Pokemon you want to catch, and be notified when they spawn in your area.",
+      "tech": [
+        "React Native",
+        "Redux",
+        "Redux Saga"
+      ]
+    },
+    {
+      "title": "OpenSourceMe",
+      "link": "https://github.com/OpenSourceMe/Website",
+      "desc": "A blog engine for the web that uses GitHub as a content management system.",
+      "tech": [
+        "React",
+        "Redux",
+        "GitHub"
+      ]
+    },
+    {
+      "title": "Paideia Institute Website",
+      "link": "http://www.paideiainstitute.org/",
+      "desc": "Core website for the institute.",
+      "tech": [
+        "Liquid templating",
+        "Javascript",
+        "HTML/CSS"
+      ] 
+    },
+    {
+      "title": "Chiron Web Extension",
+      "link": "http://www.paideiainstitute.org/chiron",
+      "desc": "Translate Greek and Latin in your browser.",
+      "tech": [
+        "Javascript",
+        "HTML/CSS"
+      ]
+    }
+  ]
+}

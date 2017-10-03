@@ -1,0 +1,52 @@
+/* NB: only for reference, SASS is used in the build chain */
+@import url('https://fonts.googleapis.com/css?family=Cantarell|Josefin+Slab');
+body {
+  font-family: "Cantarell", sans-serif;
+  font-size: 20px;
+  line-height: 30px; }
+
+ul {
+  list-style-type: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Slab", serif; }
+
+a {
+  box-shadow: none;
+  text-decoration: none;
+  cursor: pointer;
+  color: #9e85f6; }
+
+a:hover {
+  color: #7856f2;
+  text-decoration: none; }
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center; }
+
+.frag-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style-type: none; }
+
+.frag {
+  display: flex;
+  font-size: 32px;
+  line-height: 45px;
+  padding-bottom: 15px;
+  font-family: "Josefin Slab", serif;
+  margin: 10px;
+  border-bottom: 1px solid #eee; }
+
+.frag-date {
+  font-family: "Helvetica Neue", serif;
+  font-size: 18px;
+  font-weight: lighter;
+  color: gray; }
