@@ -20,7 +20,7 @@ const styles = {
     marginLeft: '10px',
     lineHeight: '18px',
     fontSize: 12,
-    marginBottom: 0,
+    marginBottom: 3,
   },
 }
 
