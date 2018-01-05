@@ -10,36 +10,36 @@
   "skills": {
     "languages": [
       "English",
-      "JavaScript",
-      "HTML/CSS",
-      "Swift & Objective C",
-      "Italian",
+      "JavaScript [HTML, CSS]",
       "Python",
-      "Ruby",
-      "Golang",
-      "Java",
+      "Italian",
+      "Objective C",
+      "Swift",
+      "Elm, Haskell, OCaml",
       "C",
-      "Latin"
+      "Java",
+      "Latin",
+      "SQL",
+      "Assembly"
     ],
     "frameworks+": [
-      "React & React Native",
-      "Redux, Mobx, Flux+",
-      "Express, Hapi, Node",
+      "React, React Native [Redux]",
+      "Node [express, hapi]",
       "Docker",
-      "Git, AWS, Digital Ocean",
-      "Rails",
-      "Framer (Design)",
-      "MySQL & PostgreSQL",
-      "Django",
-      "AngularJS"
+      "Git[hub, bitbucket]",
+      "AWS, Digital Ocean",
+      "Framer [app design suite]",
+      "Maya [3-D modeling, animation]"
     ],
     "misc | other": [
-      "HackMunich, 1st Place",
-      "BICLazio Rome Hackathon, 1st Place",
+      "PIIRS Undergraduate Research Fellow, Berlin 2017",
+      "Burda Hackday Munich 2016, 1st",
+      "BICLazio Hack Rome 2015, 1st",
       "HackZurich 2015, Dropbox API Prize and Top 25",
+      "HackZurich 2017, Top 25",
       "Advisory Board, Paideia Institute for Humanistic Study",
       "TEFL Certified Teacher",
-      "Outward Bound Graduate, Anakiwa NZ",
+      "Outward Bound, Anakiwa NZ",
       "Ian Turner Cup for Best All Rounder, Auckland Grammar 2012",
       "Auckland University Latin Speaking 2012, 1st Place"
     ]
@@ -47,40 +47,39 @@
   "sections": [
     {
       "title": "interests",
-      "content": "From Auckland, NZ. Singer & songwriter. Acapella with [Princeton Footnotes](http://www.princetonfootnotes.com), folk duo with '[Baker & Goods](https://bakerandgoods.bandcamp.com/releases)', past singer in pop band '[Chasing April](https://www.youtube.com/watch?v=Us3CcZmnwFA)'. Music director and actor in various musicals, writer for the [Triangle Club](http://www.triangleshow.com/) at Princeton. NZ Waterpolo representative 2012, Princeton Men's WP 2014, NZ Champion Marist Men's WP 2014. Recently completed half-Ironman."
+      "content": "Originally from Auckland, New Zeland. I'm currently practicing 3-D animation, as well as media and performance theory. I freelance as a front-end web and mobile developer, specializing in the React ecosystem. I sing acapella with the [Princeton Footnotes](http://princetonfootnotes.com/). I also have a [debut solo EP](https://open.spotify.com/album/4QArUFWoCa3NHP70W3dOEI), and have been music director/actor in various Princeton musicals, writer for the [Triangle Show](http://www.triangleshow.com/), NZ Waterpolo representative 2012, Princeton Men's WP 2014."
     },
     {
       "title": "experience",
       "pills": [
         {
+          "left": "August-February 2016-17",
+          "body": {
+            "title": "DirectDrinks: CTO and co-founder",
+            "content": "We provide a direct sales channels between large corporate suppliers and small resellers in the FMCG industry, disrupting a pipeline that is currently dominated by mid-tier redistributors. Digital platform for web, mobile, and tablet: directdrinks.com.au."
+          },
+          "right": "Sydney, Australia"
+        },
+        {
           "left": "June-August 2016",
           "body": {
-            "title": "Inflection",
-            "content": "Developed an Objective C SDK for an OAuth2 verification flow, and two React Native applications. Contributions to Dockerized Rails/React stack."
-          },
-          "right": "San Francisco, CA, USA"
+            "title": "Inflection: mobile developer",
+            "content": "Developed an Objective C SDK for an OAuth2 verification flow, and prototyped two React Native applications. Contributions to Dockerized Rails backend."
+          }
         },
         {
           "left": "April-May 2016",
           "body": {
-            "title": "Artirigo AG",
-            "content": "React Native frontend for iOS and Android. In addition, Dockerized and made adjustments to existing Rails application"
+            "title": "Artirigo AG: full stack developer",
+            "content": "React Native frontend for iOS and Android. In addition, Dockerized and contributions to Rails application."
           },
           "right": "Bamberg, Germany"
         },
         {
-          "left": "January 2016-Present",
-          "body": {
-            "title": "Freelance Software Developer",
-            "content": "Developed a full stack from scratch with React Native, Hapi, Sequelize and MariaDB, an iOS app with Swift and Parse, and a custom React website."
-          },
-          "right": "Frascati, Italy"
-        },
-        {
           "left": "June 2015 - Feb 2016",
           "body": {
-            "title": "Digital Humanities Fellow, Paideia Institute",
-            "content": "NationBuilder website (Rails, Liquid, CSS, JavaScript), an iOS app with Swift, a Chrome extension, and automated several internal processes via Python scripts."
+            "title": "Paideia Institute: digital humanities fellow",
+            "content": "Topic modeling with LDA/LSI, built NationBuilder website (Rails, Liquid, CSS, JS), an iOS app with Swift, a Chrome extension, and automated several internal processes via Python scripts."
           },
           "right": "Rome, Italy"
         }
@@ -93,7 +92,7 @@
           "left": "present",
           "body": {
             "title": "Princeton University",
-            "content": "Major in Computer Science. Classes also in intellectual history, dance, theatre, economics and other."
+            "content": "Major in Computer Science. Classes also in intellectual history, media and cultural theory, performance theory, theatre et al."
           },
           "right": "Princeton, NJ, USA"
         }
@@ -101,7 +100,7 @@
     },
     {
       "title": "portfolio | references",
-      "content": "See code & contributions on [my Github (@breezykermo)](https://github.com/breezykermo). Twitter [@lachlankermode](https://www.twitter.com/lachlankermode). Visit [lachlankermode.com/resume](http://lachlankermode.com/resume) for links in this resume. References available on request."
+      "content": "For code see [lachlankermode.com/portfolio](http://lachlankermode.com/portfolio), contributions on GitHub [@breezykermo](https://github.com/breezykermo). Twitter [@lachlankermode](https://www.twitter.com/lachlankermode). Visit [lachlankermode.com/resume](http://lachlankermode.com/resume) for active links in this resume. References available on request."
     }
   ]
 }
