@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "lachlan kermode",
-    "profession": "full stack & mobile developer"
+    "profession": "full stack developer / animator"
   },
   "details": {
     "website": "www.lachlankermode.com",
@@ -52,6 +52,14 @@
     {
       "title": "experience",
       "pills": [
+        {
+          "left": "June-August 2017",
+          "body": {
+            "title": "PIIRS: research fellow",
+            "content": "Researching media and internet art in Europe for 'Through the Internet', an animated short that explains the physical infrastructure of the Internet via a first-person narrative from the perspective of a data packet."
+          },
+          "right": "Berlin, Germany"
+        },
         {
           "left": "August-February 2016-17",
           "body": {
