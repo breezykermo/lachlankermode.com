@@ -1,13 +1,33 @@
 {
   "code": [
     {
-      "title": "Impart",
-      "link": "https://github.com/breezykermo/impart",
-      "desc": "Swipe through cards with the ability to sign up for philanthropic opportunity.",
+      "title": "ClairCutApp",
+      "link": "https://github.com/clairecut",
+      "desc": "Open source mobile platform and server for isolating and saving sections of a whiteboard using computer vision. Winner of Burda Hackday 2016.",
       "tech": [
         "React Native",
+        "Python",
+        "OpenCV"
+      ]
+    },
+    {
+      "title": "Plastic Anthony",
+      "link": "https://github.com/plasticanthony/coffee-dates",
+      "desc": "Open source web platform for coordinating and reporting on coffee dates among friends.",
+      "tech": [
+        "React",
         "Redux",
-        "Objective C"
+        "Parse Server"
+      ]
+    },
+    {
+      "title": "Keywords... Relevant to Academic Life, &c.",
+      "link": "http://keywords-academiclife.net/",
+      "desc": "Website for book published by Princeton University Press. Created by a forthcoming static site generator for Google Drive.",
+      "tech": [
+        "JS",
+        "Google Drive",
+        "HTML/CSS"
       ]
     },
     {
@@ -32,7 +52,7 @@
     {
       "title": "OpenSourceMe",
       "link": "https://github.com/OpenSourceMe/Website",
-      "desc": "A blog engine for the web that uses GitHub as a content management system.",
+      "desc": "An unmaintained blog engine for the web that uses GitHub as a content management system.",
       "tech": [
         "React",
         "Redux",
