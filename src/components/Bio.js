@@ -24,7 +24,7 @@ class Bio extends React.Component {
             // maxHi: 300,
           }}
         >
-          <p>Written by <Link to={'/about/'} className="link">{'Lachlan Kermode'}</Link> who lives and works in Princeton. You should check out his <a href="/resume/" className="link">Resume</a>, <a href="https://github.com/breezykermo">GitHub</a>, or <a href="https://twitter.com/lachlankermode" className="link">Twitter</a>.</p>
+          <p>Written by <Link to={'/about/'} className="link">{'Lachlan Kermode'}</Link> who lives and works in Princeton.<br/><a href="https://keybase.io/lachlankermode">Keybase</a>: <a href="https://github.com/breezykermo">GitHub</a>: <a href="https://twitter.com/lachlankermode" className="link">Twitter</a>.</p>
         </div>
       </div>
     )

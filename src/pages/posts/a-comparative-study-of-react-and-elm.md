@@ -1,5 +1,5 @@
 ---
-title: A Comparison of Elm and React (in code)
+title: a comparison of Elm and React (in code)
 date: "2017-01-22T12:49:00.169Z"
 layout: post
 path: "/elm-and-react/"

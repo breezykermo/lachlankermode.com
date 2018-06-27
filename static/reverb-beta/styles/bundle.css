@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: "OCRB";
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 18px; }
+
+#content {
+  display: flex;
+  margin: 0;
+  flex-direction: row; }
+
+.column {
+  min-width: 400px;
+  max-width: 400px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column; }
+  @media screen and (max-width: 500px) {
+    .column {
+      max-width: calc(100% - 30px);
+      min-width: calc(100% - 30px); } }
+
+h1 {
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  line-height: 18px; }
+
+p {
+  margin: 0; }
+
+.header {
+  display: flex;
+  padding-left: 15px;
+  padding-top: 15px;
+  margin-bottom: 15px; }
+
+.header-panel {
+  min-height: 30px;
+  max-height: 30px; }
+
+.panel {
+  min-width: 380px;
+  max-width: 380px;
+  flex-direction: column;
+  padding: 10px;
+  border: black solid 1px; }
+
+.selectable-folder {
+  margin-top: 15px;
+  background-color: black;
+  color: white;
+  border-color: transparent; }
+  .selectable-folder:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black; }
+
+.btn {
+  font-family: "OCRB";
+  font-size: 16px;
+  letter-spacing: 2px;
+  min-width: 150px;
+  max-width: 150px;
+  min-height: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black; }
+  .btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black; }
+  .btn:focus {
+    outline: 0; }
+
+#drive-folders {
+  max-height: 850px;
+  overflow-y: scroll; }
+
+#overlay {
+  display: flex; }
+
+.loading-overlay {
+  display: flex;
+  padding-top: 80px;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0vw;
+  opacity: 0.50;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  color: white; }
+
+.logged-in, .folder-options {
+  display: none;
+  flex-direction: column; }
+
+.syntax {
+  color: #00F; }
+
+input {
+  width: 100%;
+  padding: 0;
+  border-width: 0;
+  font-family: "OCRB";
+  font-size: 16px;
+  border-style: none;
+  outline: none; }
+  input::-webkit-input-placeholder, input::-moz-placeholder, input:ms-input-placeholder, input:-moz-placeholder {
+    font-family: "OCRB"; }
+  input::-ms-clear, input::-ms-reveal {
+    display: none; }
+
+.btn-large {
+  width: 180px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black; }
+  .btn-large.cancel-btn {
+    background-color: #f00; }
+  .btn-large:hover {
+    cursor: pointer; }
+  .btn-large:focus {
+    outline: 0; }
+
+.flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+
+.mb-10 {
+  margin-bottom: 10px; }
+
+.mt-15 {
+  margin-top: 15px; }
+
+/*# sourceMappingURL=bundle.css.map*/

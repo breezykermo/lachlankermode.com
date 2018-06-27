@@ -1,5 +1,5 @@
 ---
-title: The Towpath to React and Redux
+title: the towpath to React and Redux
 date: "2016-07-28T16:12:51.247Z"
 layout: post
 path: "/the-towpath-to-react-and-redux/"

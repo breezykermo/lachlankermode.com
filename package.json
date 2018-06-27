@@ -5,6 +5,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "gatsby": "^1.9.45",
+    "gatsby-cli": "^1.1.51",
     "gatsby-link": "^1.6.17",
     "gatsby-plugin-react-helmet": "^1.0.5",
     "gatsby-plugin-sass": "^1.0.12",
@@ -12,12 +13,14 @@
     "gatsby-plugin-typography": "^1.7.10",
     "gatsby-source-filesystem": "^1.5.2",
     "gatsby-transformer-remark": "^1.7.15",
+    "global": "^4.3.2",
     "markdown-it": "^8.4.0",
     "react-document-title": "^2.0.3",
     "react-redux": "^5.0.6",
     "react-responsive-grid": "^0.3.4",
     "redux-thunk": "^2.2.0",
     "safe-access": "^0.1.0",
+    "sheetsu-web-client": "^1.0.0",
     "typography-theme-wordpress-2016": "^0.15.10"
   },
   "keywords": [
