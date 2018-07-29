@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Reverb</title>
-  <link href="styles/bundle.css" rel="stylesheet"></head>
+  <link href="bundle.css" rel="stylesheet"></head>
   <body>
     <div class="header">
       <div class='panel header-panel'>
@@ -12,18 +12,21 @@
     </div>
     <div id='content'>
       <div class='column' id='col-1'>
-        <div class='panel' id="logged-out">
+        <div class='panel __NAV__logged-out'>
           <p class="mb-10">Reverb is a simple way to generate a website from a Google Drive folder.
           After you connect, you can select a folder and use the documents in it as content for a site.</p>
           <div class="flex-column full-width">
-            <button id="drive-connect" class="btn">Connect</button>
+            <button id="drive-connect" class="btn btn-small">Connect</button>
           </div>
         </div>
-        <div class='panel logged-in'>
+        <div class='panel __NAV__logged-in'>
           <div>Select the folder in your Drive to publish (search by name).</div>
         </div>
+        <div class='panel mt-15 __NAV__logged-in'>
+          <button id="signout-button" class='btn'>Sign Out</button>
+        </div>
 
-        <div class="folder-options">
+        <div class="__NAV__folder-options">
           <div class="options-container panel">
             <div>You can create relative links between pages on the site by adding a link in a Google Doc to <br/><span class='syntax'>##{DOC_TITLE}</span>, where <span class='syntax'>DOC_TITLE</span> is the <em>exact</em> name of another document in the same folder.</div>
           </div>
@@ -36,21 +39,26 @@
           </div>
           <div class='panel mt-15'>
             <div class="flex-center">
-              <button id="generate-trigger" class="btn-large">Generate</button>
-              <button id="cancel-trigger" class="btn-large cancel-btn">Cancel</button>
+              <button id="generate-trigger" class="btn btn-large">Generate</button>
+              <button id="cancel-trigger" class="btn btn-large cancel-btn">Cancel</button>
             </div>
           </div>
         </div>
       </div>
 
-      <div class='column logged-in'> 
+      <div class='column __NAV__logged-in'>
         <div class='panel'>
-          <input placeholder="Folder name..." id="search"/> 
+          <input placeholder="Folder name..." id="search"/>
         </div>
-        <div id="drive-folders"></div>
+        <div id="drive-folders" class='mt-15'>
+            <div class='flex-center flex-column'>
+              <div>Loading folders from drive</div>
+              <div>...</div>
+            </div>
+        </div>
       </div>
 
-      <div class='column folder-options'> 
+      <div class='column __NAV__folder-options'>
         <div class="panel found-docs-container">
           Documents (sorted by title)
         </div>
@@ -58,12 +66,8 @@
       </div>
     </div>
 
-      
 
 
-<!-- LOGGED OUT PANEL -->
-<!--Add buttons to initiate auth sequence and sign out-->
-  <button id="signout-button" style="display: none;">Sign Out</button>
 
 <!-- LOADING OVERLAY, used in transitional states -->
 <div id="overlay">
@@ -72,18 +76,6 @@
     <div>...</div>
   </div>
 </div>
-<!--  -->
-<!-- <!&#45;&#45; OVERLAY INPUT, no longer used, was going to be used for submitting options. &#45;&#45;> -->
-<!-- <div id="overlay&#45;input"> -->
-<!--   <div class="overlay&#45;input&#45;panel flex&#45;column"> -->
-<!--     <div class="overlay&#45;input&#45;title">Title</div> -->
-<!--     <div class="overlay&#45;input&#45;subtitle">subtitle</div> -->
-<!--     <input class="overlay&#45;input&#45;input" type="text" placeholder="Type your email address here..."> -->
-<!--     <div class="flex&#45;column"> -->
-<!--       <button class="btn" id="overlay&#45;input&#45;button">Send</button> -->
-<!--     </div> -->
-<!--   </div> -->
-<!-- </div> -->
-<!--  -->
+
 <script type="text/javascript" src="bundle.js"></script></body>
 </html>

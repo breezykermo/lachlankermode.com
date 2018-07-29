@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'OCRB';
+  src: url(reverbOCRB.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal; }
 body {
   margin: 0;
   font-family: "OCRB";
@@ -8,18 +13,23 @@ body {
 #content {
   display: flex;
   margin: 0;
-  flex-direction: row; }
+  flex-direction: column; }
 
 .column {
-  min-width: 400px;
-  max-width: 400px;
   margin-left: 15px;
   display: flex;
-  flex-direction: column; }
-  @media screen and (max-width: 500px) {
-    .column {
-      max-width: calc(100% - 30px);
-      min-width: calc(100% - 30px); } }
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: calc(100% - 30px);
+  max-width: calc(100% - 30px);
+  min-width: calc(100% - 30px); }
+
+@media (min-width: 850px) {
+  #content {
+    flex-direction: row; }
+  .column {
+    max-width: 400px;
+    min-width: 400px; } }
 
 h1 {
   font-weight: 200;
@@ -49,10 +59,8 @@ p {
   border: black solid 1px; }
 
 .selectable-folder {
-  margin-top: 15px;
   background-color: black;
-  color: white;
-  border-color: transparent; }
+  color: white; }
   .selectable-folder:hover {
     cursor: pointer;
     background-color: white;
@@ -62,15 +70,22 @@ p {
   font-family: "OCRB";
   font-size: 16px;
   letter-spacing: 2px;
-  min-width: 150px;
-  max-width: 150px;
-  min-height: 30px;
-  height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: black; }
+  background-color: black;
+  height: 30px; }
+  .btn.btn-small {
+    width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    height: 30px; }
+  .btn.btn-large {
+    width: 180px;
+    height: 50px; }
+  .btn.cancel-btn {
+    background-color: #f00; }
   .btn:hover {
     cursor: pointer;
     background-color: white;
@@ -78,7 +93,8 @@ p {
   .btn:focus {
     outline: 0; }
 
-#drive-folders {
+#drive-folders, #found-docs-list {
+  margin-right: -2px;
   max-height: 850px;
   overflow-y: scroll; }
 
@@ -100,10 +116,6 @@ p {
   height: 100vh;
   color: white; }
 
-.logged-in, .folder-options {
-  display: none;
-  flex-direction: column; }
-
 .syntax {
   color: #00F; }
 
@@ -120,31 +132,28 @@ input {
   input::-ms-clear, input::-ms-reveal {
     display: none; }
 
-.btn-large {
-  width: 180px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  background-color: black; }
-  .btn-large.cancel-btn {
-    background-color: #f00; }
-  .btn-large:hover {
-    cursor: pointer; }
-  .btn-large:focus {
-    outline: 0; }
+#signout-button {
+  display: none; }
 
+/* generic classes */
 .flex-center {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center; }
 
+.flex-column {
+  flex-direction: column; }
+
 .mb-10 {
   margin-bottom: 10px; }
 
 .mt-15 {
   margin-top: 15px; }
+
+/* __NAV__ default visibility. Must be placed at end due to cascading nature of styles. */
+.__NAV__logged-in, .__NAV__folder-options {
+  display: none;
+  flex-direction: column; }
 
 /*# sourceMappingURL=bundle.css.map*/
