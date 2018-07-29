@@ -25,8 +25,8 @@ class Header extends React.Component {
               <Link to={'/music/'}>
                 <div className="page-link">music</div>
               </Link> */}
-              <Link to={'/library/'}>
-                <div className="page-link">library</div>
+              <Link to={'/books/'}>
+                <div className="page-link">books</div>
               </Link>
             </div>
           </Span>
@@ -48,8 +48,8 @@ class Header extends React.Component {
               <Link to={'/music/'}>
                 <div className="pad-page-link">music</div>
               </Link> */}
-              <Link to={'/library/'}>
-                <div className="pad-page-link">library</div>
+              <Link to={'/books/'}>
+                <div className="pad-page-link">books</div>
               </Link>
             </div>
           </Span>
@@ -69,7 +69,7 @@ class Header extends React.Component {
               <Link to={'/music/'}>
                 <div className="mobile-page-link">music</div>
               </Link> */}
-              <Link to={'/library/'}>
+              <Link to={'/books/'}>
                 <div className="mobile-page-link">lib</div>
               </Link>
             </div>
