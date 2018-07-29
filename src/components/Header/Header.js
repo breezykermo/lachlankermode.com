@@ -19,12 +19,12 @@ class Header extends React.Component {
               <Link to={'/about/'}>
                 <div className="page-link">about</div>
               </Link>
-              <Link to={'/portfolio/'}>
+              {/* <Link to={'/portfolio/'}>
                 <div className="page-link">portfolio</div>
               </Link>
               <Link to={'/music/'}>
                 <div className="page-link">music</div>
-              </Link>
+              </Link> */}
               <Link to={'/library/'}>
                 <div className="page-link">library</div>
               </Link>
@@ -42,12 +42,12 @@ class Header extends React.Component {
               <Link to={'/about/'}>
                 <div className="pad-page-link">about</div>
               </Link>
-              <Link to={'/portfolio/'}>
+              {/* <Link to={'/portfolio/'}>
                 <div className="pad-page-link">portfolio</div>
               </Link>
               <Link to={'/music/'}>
                 <div className="pad-page-link">music</div>
-              </Link>
+              </Link> */}
               <Link to={'/library/'}>
                 <div className="pad-page-link">library</div>
               </Link>
@@ -63,12 +63,12 @@ class Header extends React.Component {
               <Link to={'/about/'}>
                 <div className="mobile-page-link">abt</div>
               </Link>
-              <Link to={'/portfolio/'}>
+              {/* <Link to={'/portfolio/'}>
                 <div className="mobile-page-link">code</div>
               </Link>
               <Link to={'/music/'}>
                 <div className="mobile-page-link">music</div>
-              </Link>
+              </Link> */}
               <Link to={'/library/'}>
                 <div className="mobile-page-link">lib</div>
               </Link>
