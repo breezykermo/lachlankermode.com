@@ -6,6 +6,8 @@ $alternate-font: "Helvetica Neue", serif;
 $copy-font: "Cantarell", sans-serif;
 
 body {
+  color: white !important;
+  background-color: rgb(23, 24, 28);
   font-family: $copy-font;
   font-size: 20px;
   line-height: 30px;

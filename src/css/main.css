@@ -1,6 +1,7 @@
 /* NB: only for reference, SASS is used in the build chain */
 @import url('https://fonts.googleapis.com/css?family=Cantarell|Josefin+Slab');
 body {
+  background-color: rgb(23, 24, 28);
   font-family: "Cantarell", sans-serif;
   font-size: 20px;
   line-height: 30px; }

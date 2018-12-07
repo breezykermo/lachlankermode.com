@@ -1,13 +1,21 @@
 {
   "code": [
     {
-      "title": "ClairCutApp",
-      "link": "https://github.com/clairecut",
-      "desc": "Open source mobile platform and server for isolating and saving sections of a whiteboard using computer vision. Winner of Burda Hackday 2016.",
+      "title": "Timemap",
+      "link": "https://github.com/forensic-architecture/timemap",
+      "desc": "Maintainer, open source. Exploration, monitoring and classification of incidents in time and space.",
       "tech": [
-        "React Native",
-        "Python",
-        "OpenCV"
+        "React",
+        "Redux",
+        "D3"
+      ]
+    },
+    {
+      "title": "Datasheet Server",
+      "link": "https://github.com/forensic-architecture/datasheet-server",
+      "desc": "Maintainer, open source. Turn spreadsheet into a structured, dynamic API.",
+      "tech": [
+        "NodeJS"
       ]
     },
     {
@@ -28,35 +36,6 @@
         "JS",
         "Google Drive",
         "HTML/CSS"
-      ]
-    },
-    {
-      "title": "React Native Redux Boiler",
-      "link": "https://github.com/breezykermo/react-native-redux-boiler",
-      "desc": "A minimalist boiler for new React Native projects using redux.",
-      "tech": [
-        "React Native",
-        "Redux"
-      ]
-    },
-    {
-      "title": "PokeFinderGo",
-      "link": "https://github.com/breezykermo/pokefinder-go",
-      "desc": "Subscribe to Pokemon you want to catch, and be notified when they spawn in your area.",
-      "tech": [
-        "React Native",
-        "Redux",
-        "Redux Saga"
-      ]
-    },
-    {
-      "title": "OpenSourceMe",
-      "link": "https://github.com/OpenSourceMe/Website",
-      "desc": "An unmaintained blog engine for the web that uses GitHub as a content management system.",
-      "tech": [
-        "React",
-        "Redux",
-        "GitHub"
       ]
     },
     {
