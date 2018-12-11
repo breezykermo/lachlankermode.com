@@ -43,7 +43,7 @@ const Section = (props) => {
   return (
     <div style={styles.container}>
       <h3 style={styles.title}>
-        <span style={styles.themed}>{firstThreeLetters}</span>{restOfTitle}
+        <span style={styles.themed}>{firstThreeLetters}</span><span>{restOfTitle}</span>
       </h3>
       <hr style={styles.hr} />
       <div className={'innerMarkdown'}>
