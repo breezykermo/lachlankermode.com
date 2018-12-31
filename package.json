@@ -16,6 +16,7 @@
     "global": "^4.3.2",
     "markdown-it": "^8.4.0",
     "react-document-title": "^2.0.3",
+    "react-helmet": "^5.2.0",
     "react-redux": "^5.0.6",
     "react-responsive-grid": "^0.3.4",
     "redux-thunk": "^2.2.0",
