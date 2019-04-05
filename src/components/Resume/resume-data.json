@@ -1,7 +1,7 @@
 {
   "header": {
     "name": "lachlan kermode",
-    "profession": "full stack engineer"
+    "profession": "frontend / full stack engineer"
   },
   "details": {
     "website": "www.lachlankermode.com",
@@ -24,10 +24,10 @@
     "frameworks+": [
       "React, React Native [Redux]",
       "VueJS, Elm [functional frontend]",
-      "Node [express, hapi]",
+      "HTTP/S JS/Python [express, flask]",
       "MySQL, Postgres, MongoDB",
       "Docker, VM- and container-ware",
-      "Git[hub, lab, bitbucket]",
+      "Tensorflow, PyTorch, Kubernetes",
       "AWS, Digital Ocean",
       "Maya [3-D modeling, animation]"
     ],
@@ -73,7 +73,8 @@
           "body": {
             "title": "Inflection: mobile developer",
             "content": "Developed an Objective C SDK for an OAuth2 verification flow, and prototyped two React Native applications. Contributions to Dockerized Rails backend."
-          }
+          },
+          "right": "San Francisco, California USA"
         },
         {
           "left": "April-May 2016",
@@ -82,14 +83,6 @@
             "content": "React Native frontend for iOS and Android. In addition, Dockerized and contributions to Rails application."
           },
           "right": "Bamberg, Germany"
-        },
-        {
-          "left": "June 2015 - Feb 2016",
-          "body": {
-            "title": "Paideia Institute: digital humanities fellow",
-            "content": "Topic modeling with LDA/LSI, built NationBuilder website (Rails, Liquid, CSS, JS), an iOS app with Swift, a Chrome extension, and automated several internal processes via Python scripts."
-          },
-          "right": "Rome, Italy"
         }
       ]
     },

@@ -4,7 +4,7 @@ export default {
   mainColor: '#BB83FF',
   highlightColor: '#D4D4D4',
   headerColor: '#4c4c4c',
-  backgroundColor: '#f7f7f7',
+  backgroundColor: '#f4f8ff',
   markdownRules: {
     h2: {
       fontFamily: 'Helvetica',
