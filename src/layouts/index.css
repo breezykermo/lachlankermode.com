@@ -511,6 +511,7 @@ th {
   font-weight: bold;
 }
 li {
+    color: white !important;
   margin-bottom: calc(1.45rem / 2);
 }
 ol li {

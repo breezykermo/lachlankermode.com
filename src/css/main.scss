@@ -5,9 +5,9 @@ $header-font: "Josefin Slab", serif;
 $alternate-font: "Helvetica Neue", serif;
 $copy-font: "Cantarell", sans-serif;
 
-body {
-  color: white !important;
-  background-color: rgb(23, 24, 28);
+body, li  {
+  color: black !important;
+  background-color: #f4f8ff;
   font-family: $copy-font;
   font-size: 20px;
   line-height: 30px;
